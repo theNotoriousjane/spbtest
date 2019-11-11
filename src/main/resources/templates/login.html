@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">>
+<head>
+    <meta charset="utf-8" />
+    <title>用户登录</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<form  id="login.action" name="login.action" action="login.action" method="post">
+    <div class="mycenter">
+        <div class="mysign">
+            <div class="col-lg-11 text-center text-info">
+                <h2>请登录</h2>
+            </div>
+            <div class="col-lg-10">
+                <input type="text" class="form-control" id="username" name="username" placeholder="请输入账户名" required autofocus/>
+            </div>
+            <div class="col-lg-10"></div>
+            <div class="col-lg-10">
+                <input type="password" class="form-control" id="password" name="password" placeholder="请输入密码" required autofocus/>
+            </div>
+            <div class="col-lg-10"></div>
+            <div class="col-lg-10 mycheckbox checkbox">
+                <input type="checkbox" class="col-lg-1">记住密码</input>
+            </div>
+            <div class="col-lg-10"></div>
+            <div class="col-lg-10">
+                <button type="submit" class="btn btn-success col-lg-12">登录</button></br>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>
