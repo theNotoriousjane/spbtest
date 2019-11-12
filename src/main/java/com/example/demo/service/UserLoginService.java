@@ -18,7 +18,7 @@ public class UserLoginService {
     public int adduser(String username,String password){
 
         return usermapper.adduser(username,password);
-        //return usermapper.adduser1(username,password,age);     //对应sql语句中的第二种注册方式
+        
     }
 
 }
